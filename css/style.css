@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: digital-7;
+    src: url(./digital-7/digital-7.ttf);
+}
+
+:root {
+    --light-pink: #C88EA7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #99627A;
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+    cursor: pointer;
+    gap: 30px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.frame {
+    width: 600px;
+    height: 300px;
+    border: 30px solid #E7CBCB;
+    background-color: #643843;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    font-size: 80px;
+    line-height: 210px;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E7CBCB;
+    text-shadow: 0 0 12px var(--light-pink);
+}
+
+.clock div {
+    width: 40px;
+    text-align: center;
+    font-family: "digital-7";
+}
+.txt{
+    margin-left: 10px;
+}
