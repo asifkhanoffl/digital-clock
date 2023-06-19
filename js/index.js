@@ -31,4 +31,5 @@ function runClock() {
   s[1].innerHTML = seconds[1];
   txt.innerHTML = text;
 }
+runClock()
 setInterval(runClock, 1000);
